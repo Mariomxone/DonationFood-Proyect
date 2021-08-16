@@ -104,4 +104,5 @@ class ArticuloController extends Controller
 
         return redirect('/articulos');
     }
+   
 }

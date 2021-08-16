@@ -3,11 +3,20 @@
 @section('title', 'Pagina Principal - Articulos')
 
 @section('content_header')
-    <h1>Listado de artículos</h1>
+<center> 
+    <h1>Bienvenido</h1>
+</center>
 @stop
 
 @section('content')
-   <a href="articulos/create" class="btn btn-primary mb-3">CREAR</a>
+   <a href="articulos/create" class="btn btn-primary mb-3">Crear Articulo</a>
+   <a href="ver" class="btn btn-info mb-3">Evidencias</a>
+   <h3>Links a páginas para mayor información</h3>
+   <br>
+   <a href="https://donadora.org/campanas/reconstruirmexico" class="btn btn-info mb-3">Material PET</a>
+   <a href="https://caritasdeleon.org/donde-donar-ropa/" class="btn btn-info mb-3">Ropa</a>
+   <a href="https://comunidadloyola.org/" class="btn btn-info mb-3">Casa Hogar</a>
+   <br>
 
 <table id="articulos" class="table table-striped table-bordered shadow-lg mt-4" style="width:100%">
     <thead class="bg-primary text-white">
