@@ -259,7 +259,7 @@ return [
         ],
         [
             'text' => 'Pagina Principal',
-            'url'  => 'bienvenida',
+            'url'  => '/View/Bienvenido',
             'icon' => 'fas fa-fw fa-home',
         ],
        

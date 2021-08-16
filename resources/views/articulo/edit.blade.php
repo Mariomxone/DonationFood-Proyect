@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'CRUD con Laravel 8')
+@section('title', 'Página de Edición')
 
 @section('content_header')
     <h1>Editar Artículo</h1>
